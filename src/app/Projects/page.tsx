@@ -4,8 +4,9 @@ import React, { useEffect, useId, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useOutsideClick } from "../../../hooks/use-outside-click";
 import { FloatingDockDemo } from "./dock";
+import Navbar from "../components/ui/navbar";
 
-export function Projects() {
+const Projects = () => {
   const [active, setActive] = useState<(typeof cards)[number] | boolean | null>(
     null
   );
@@ -33,6 +34,7 @@ export function Projects() {
 
   return (
     <>
+    <Navbar />
       <AnimatePresence>
         {active && typeof active === "object" && (
           <motion.div
@@ -343,3 +345,5 @@ const cards = [
   },
   
 ];
+
+export default Projects;

@@ -4,7 +4,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { Timeline } from "../components/ui/timeline";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline"; // Assuming you have the Heroicons package installed
-
+import Navbar from "../components/ui/navbar";
 
 const Experiences = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -37,6 +37,76 @@ const Experiences = () => {
           <p className="mt-3">
             • Coached by engineers from <b>Amazon</b>, <b>Bloomberg</b>, and <b>Capital One</b> on <b>Agile</b>, <b>CI/CD</b>, <b>Git</b>, and microservice patterns.
           </p>
+
+          <div className="flex direction-collumn gap-3">
+          <a
+            href="https://rizzgpt.xntle.com/auth"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center mt-3 text-sm font-medium text-blue-700 hover:underline dark:text-blue-500"
+          >
+            <ArrowTopRightOnSquareIcon className="h-4 w-4 mr-1 text-blue" />
+            rizzgpt
+          </a>
+          <a
+            href="https://talkaroo-lac.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center mt-3 text-sm font-medium text-blue-700 hover:underline dark:text-blue-500"
+          >
+            <ArrowTopRightOnSquareIcon className="h-4 w-4 mr-1 text-blue" />
+            talkaroo
+          </a>
+          </div>
+          <div className="flex direction-collumn gap-3">
+          <a
+            href="https://car-dealer-ai2-i0g4heafm-xntles-projects.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center mt-3 text-sm font-medium text-blue-700 hover:underline dark:text-blue-500"
+          >
+            <ArrowTopRightOnSquareIcon className="h-4 w-4 mr-1 text-blue" />
+            ai voice assistant
+          </a>
+          <a
+            href="https://applyez-waitlist.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center mt-3 text-sm font-medium text-blue-700 hover:underline dark:text-blue-500"
+          >
+            <ArrowTopRightOnSquareIcon className="h-4 w-4 mr-1 text-blue" />
+            applyEZ
+          </a>
+          </div>
+          <div className="flex direction-collumn gap-3">
+          <a
+            href="https://flashcards-ai-beta.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center mt-3 text-sm font-medium text-blue-700 hover:underline dark:text-blue-500"
+          >
+            <ArrowTopRightOnSquareIcon className="h-4 w-4 mr-1 text-blue" />
+            FlashAI
+          </a>
+          <a
+            href="https://pantry-pal-eta.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center mt-3 text-sm font-medium text-blue-700 hover:underline dark:text-blue-500"
+          >
+            <ArrowTopRightOnSquareIcon className="h-4 w-4 mr-1 text-blue" />
+            pantrypal
+          </a>
+          <a
+            href="https://pantry-pal-eta.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center mt-3 text-sm font-medium text-blue-700 hover:underline dark:text-blue-500"
+          >
+            <ArrowTopRightOnSquareIcon className="h-4 w-4 mr-1 text-blue" />
+            portfolio
+          </a>
+          </div>
 
         </div>
       ),
@@ -101,6 +171,15 @@ const Experiences = () => {
           <p className="mt-3">
             • Created a file renaming tool using <b>Windows PowerShell</b> to anonymize <b>DUET image files</b>, enhancing patient confidentiality and saving over <b>10+ hours</b> of research time by automating the renaming process.
           </p>
+          <a
+            href="https://www.youtube.com/watch?v=mrX9GUh_ES8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center mt-3 text-sm font-medium text-blue-700 hover:underline dark:text-blue-500"
+          >
+            <ArrowTopRightOnSquareIcon className="h-4 w-4 mr-1 text-blue" />
+            youtube video
+          </a>
         </div>
       ),
       content: (
@@ -154,6 +233,16 @@ const Experiences = () => {
           <p className="mt-3">
             • Worked closely with the <span className="font-bold text-blue-500">CEO</span> to develop a product roadmap, prioritize features, and manage the product backlog.
           </p>
+          <a
+            href="https://drive.google.com/drive/folders/1XJ-H3vIF-TrgJWGewUAqEFj6bvA64GKi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center mt-3 text-sm font-medium text-blue-700 hover:underline dark:text-blue-500"
+          >
+            <ArrowTopRightOnSquareIcon className="h-4 w-4 mr-1 text-blue" />
+            linhlinhdan.com
+          </a>
+          
         </div>
       ),
       content: (
@@ -215,6 +304,26 @@ const Experiences = () => {
           <p className="mt-3">
             • Achieved significant improvement in students' understanding and performance in <b>AP Computer Science</b> courses.
           </p>
+          <div className="flex direction-collumn gap-3">
+          <a
+            href="https://drive.google.com/drive/folders/1XJ-H3vIF-TrgJWGewUAqEFj6bvA64GKi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center mt-3 text-sm font-medium text-blue-700 hover:underline dark:text-blue-500"
+          >
+            <ArrowTopRightOnSquareIcon className="h-4 w-4 mr-1 text-blue" />
+            apcsa
+          </a>
+          <a
+            href="https://drive.google.com/drive/folders/1aozieTdWLkdw1g-RcM1jEmitWnDqroa9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center mt-3 text-sm font-medium text-blue-700 hover:underline dark:text-blue-500"
+          >
+            <ArrowTopRightOnSquareIcon className="h-4 w-4 mr-1 text-blue" />
+            apcsp
+          </a>
+          </div>
         </div>
       ),
       content: (
@@ -254,7 +363,8 @@ const Experiences = () => {
     },
   ];
   return (
-    <div className="bg-black dark text-white min-h-screen flex items-center justify-center">
+    <div className="bg-black text-white min-h-screen">
+          <Navbar />
       <div className="w-full max-w-4xl mx-auto p-4">
         <Timeline data={data} />
       </div>

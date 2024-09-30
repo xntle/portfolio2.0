@@ -6,6 +6,8 @@ import {
   motion,
 } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
+import Navbar from "./navbar";
+import { TextHoverEffect } from "./text-hover-effect";  
 
 interface TimelineEntry {
   position: string;
@@ -38,19 +40,14 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   return (
     <div
-      className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10"
+      className="w-full bg-black dark font-sans"
       ref={containerRef}
     >
-      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className=" md:block text-xl md:text-6xl font-bold text-neutral-200 dark:text-neutral-00 mb-8">
-          Experiences
+      <div className="max-w-7xl">
+        <h2 className=" md:block text-xl md:text-6xl font-bold text-neutral-200 dark:text-neutral-00 mb-8 mt-5">
+        experiences
         </h2>
-        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-          My passion for coding ignited when I took AP Computer Science in high
-          school. I went on to start my own tutoring class, gained experience as
-          a Product Manager, and ultimately transitioned into software
-          engineering.{" "}
-        </p>
+        
       </div>
 
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
