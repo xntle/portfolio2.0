@@ -25,18 +25,20 @@ const Experiences = () => {
       desc: (
         <div>
 
-          <p className="mt-3">
-            • Developed <b>7+ AI applications</b> using <b>Next.js</b>, <b>TypeScript</b>, <b>OpenAI</b>, <b>Pinecone</b>, <b>Stripe</b>, <b>Whisper</b>, <b>Clerk</b>, and <b>Firebase</b>, achieving a cumulative user base of <b>700+ active users</b> with an average engagement rate of <b>64.5%</b>.
-          </p>
-          <p className="mt-3">
-            • Led a team of <b>4</b> in the development and deployment of projects using <b>Vercel</b> and <b>AWS</b>, ensuring successful project delivery.
-          </p>
-          <p className="mt-3">
-            • Applied <b>LLM methods</b> such as <b>RAG</b> and utilized <b>CRUD operations</b> and <b>MVC design patterns</b> to streamline development and improve application functionality.
-          </p>
-          <p className="mt-3">
-            • Coached by engineers from <b>Amazon</b>, <b>Bloomberg</b>, and <b>Capital One</b> on <b>Agile</b>, <b>CI/CD</b>, <b>Git</b>, and microservice patterns.
-          </p>
+
+<p className="mt-3">
+• Developed <span className="font-bold text-white">7+ AI applications</span> using <span className="font-bold text-white">Next.js</span>, <span className="font-bold text-white">TypeScript</span>, <span className="font-bold text-white">OpenAI</span>, <span className="font-bold text-white">Pinecone</span>, <span className="font-bold text-white">Stripe</span>, <span className="font-bold text-white">Whisper</span>, <span className="font-bold text-white">Clerk</span>, and <span className="font-bold text-white">Firebase</span>
+</p>
+<p className="mt-1 pl-4">
+ Cumulative user base of <span className="font-bold text-white">700+ active users</span> & average engagement rate of <span className="font-bold text-white">64.5%</span>.
+</p>
+<p className="mt-3">
+  • Led a team of <span className="font-bold text-white">4</span> in the development and deployment of projects using <span className="font-bold text-white">Vercel</span> and <span className="font-bold text-white">AWS</span>.
+</p>
+<p className="mt-3">
+  • Applied <span className="font-bold text-white">LLM methods</span> such as <span className="font-bold text-white">RAG</span> and utilized <span className="font-bold text-white">CRUD operations</span> and <span className="font-bold text-white">MVC design patterns</span> to improve application functionality.
+</p>
+
 
           <div className="flex direction-collumn gap-3">
           <a
@@ -159,18 +161,32 @@ const Experiences = () => {
       imageSrc: "ucdhealth.png",
       desc: (
         <div>
-          <p className="mt-3">
-            • Engineered microscopy software using <b>VB.net/C#</b> to facilitate the rapid and precise detection of dye injections in tumors, resulting in a <b>250% increase</b> in detection rate and a <b>600% improvement</b> in clarity and purity.
-          </p>
-          <p className="mt-3">
-            • Optimized software performance by refining the codebase and improving algorithms, leading to a <b>150% improvement</b> in runtime, increasing overall efficiency.
-          </p>
-          <p className="mt-3">
-            • Developed a calibration system for surgeons to manually adjust scaling discrepancies between camera feeds and projections, improving real-time adjustments and increasing detection accuracy during surgeries.
-          </p>
-          <p className="mt-3">
-            • Created a file renaming tool using <b>Windows PowerShell</b> to anonymize <b>DUET image files</b>, enhancing patient confidentiality and saving over <b>10+ hours</b> of research time by automating the renaming process.
-          </p>
+<p className="mt-3">
+  • Developed microscopy software in <span className="font-bold text-white">VB.net/C#</span> for tumor dye detection.
+</p>
+<p className="mt-1 pl-4">
+  <span className="font-bold text-white">250%</span> increase in detection rate, <span className="font-bold text-white">600%</span> clarity boost.
+</p>
+
+<p className="mt-3">
+  • Optimized software performance with refined algorithms.
+</p>
+<p className="mt-1 pl-4">
+  <span className="font-bold text-white">150%</span> faster runtime.
+</p>
+
+<p className="mt-3">
+  • Created a calibration tool for accurate surgical adjustments improving accuracy.
+</p>
+
+<p className="mt-3">
+  • Automated DUET image renaming using <span className="font-bold text-white">PowerShell</span>.
+</p>
+<p className="mt-1 pl-4">
+  Saved <span className="font-bold text-white">10+ hours</span> and ensured confidentiality.
+</p>
+
+
           <a
             href="https://www.youtube.com/watch?v=mrX9GUh_ES8"
             target="_blank"
@@ -224,15 +240,16 @@ const Experiences = () => {
       imageSrc: "LLD.png",
       desc: (
         <div>
-          <p className="mt-3">
-            • Spearheaded a successful redesign of <a href="https://linhlinhdan.com" target="_blank" rel="noopener noreferrer" className="font-underline text-blue-500">linhlinhdan.com</a>, the company's flagship <span className="font-bold text-blue-500">e-commerce platform</span>.
-          </p>
-          <p className="mt-3">
-            • Led a team of <span className="font-bold text-blue-500">5</span>, including content writers, developers, a UI/UX designer, and a marketer, to successfully launch the product.
-          </p>
-          <p className="mt-3">
-            • Worked closely with the <span className="font-bold text-blue-500">CEO</span> to develop a product roadmap, prioritize features, and manage the product backlog.
-          </p>
+<p className="mt-3">
+  • Spearheaded a successful redesign of <a href="https://linhlinhdan.com" target="_blank" rel="noopener noreferrer" className="font-underline text-blue-500">linhlinhdan.com</a>, the company's flagship <span className="font-bold text-white">e-commerce platform</span>.
+</p>
+<p className="mt-3">
+  • Led a team of <span className="font-bold text-white">5</span>, including <span className="font-bold text-white">content writers</span>, developers, a <span className="font-bold text-white">UI/UX designers</span>, and <span className="font-bold text-white">marketers</span>, to successfully launch the product.
+</p>
+<p className="mt-3">
+  • Worked closely with the CEO to develop a <span className="font-bold text-white">product roadmap</span>, <span className="font-bold text-white">prioritize features</span>, and manage the <span className="font-bold text-white">product backlog</span>.
+</p>
+
           <a
             href="https://drive.google.com/drive/folders/1XJ-H3vIF-TrgJWGewUAqEFj6bvA64GKi"
             target="_blank"
@@ -291,19 +308,21 @@ const Experiences = () => {
     {
       title: "Public ClassAPCS",
       duration: "Jul 2024 - Sep 2024",
-      position: "FOUNDER",
+      position: "Founder",
       imageSrc: "apcs.png",
       desc: (
         <div>
-          <p className="mt-3">
-            • Designed a comprehensive educational curriculum for <b>AP Computer Science A</b> and <b>Principles</b> courses.
-          </p>
-          <p className="mt-3">
-            • Provided personalized tutoring in programming basics, data structures, algorithms, and problem-solving.
-          </p>
-          <p className="mt-3">
-            • Achieved significant improvement in students' understanding and performance in <b>AP Computer Science</b> courses.
-          </p>
+<p className="mt-3">
+  • Designed a comprehensive educational curriculum for <span className="font-bold text-white">AP Computer Science A</span> and <span className="font-bold text-white">Principles</span> courses.
+</p>
+<p className="mt-3">
+  • Provided personalized tutoring in <span className="font-bold text-white">programming basics</span>, <span className="font-bold text-white">data structures</span>, <span className="font-bold text-white">algorithms</span>, and <span className="font-bold text-white">problem-solving</span>.
+</p>
+
+<p className="mt-3">
+  • Achieved significant improvement in students' understanding and performance in <span className="font-bold text-white">AP Computer Science</span> courses.
+</p>
+
           <div className="flex direction-collumn gap-3">
           <a
             href="https://drive.google.com/drive/folders/1XJ-H3vIF-TrgJWGewUAqEFj6bvA64GKi"
@@ -330,28 +349,28 @@ const Experiences = () => {
         <div>
           <div className="grid grid-cols-1 gap-4">
             <Image
-              src="/ucdhealth1.png"
+              src="/apcs1.png"
               alt="hero template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="/ucdhealth2.png"
+              src="/apcs2.png"
               alt="feature template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="/ucdhealth3.png"
+              src="/apcs3.png"
               alt="bento template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="/ucdhealth4.png"
+              src="/apcs4.png"
               alt="cards template"
               width={500}
               height={500}
@@ -365,7 +384,7 @@ const Experiences = () => {
   return (
     <div className="bg-black text-white min-h-screen">
           <Navbar />
-      <div className="w-full max-w-4xl mx-auto p-4">
+      <div className="w-full max-w-3xl mx-auto p-4">
         <Timeline data={data} />
       </div>
     </div>

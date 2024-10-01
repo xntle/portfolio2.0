@@ -44,24 +44,24 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       ref={containerRef}
     >
       <div className="max-w-7xl">
-        <h2 className=" md:block text-xl md:text-6xl font-bold text-neutral-200 dark:text-neutral-00 mb-8 mt-5">
-        experiences
-        </h2>
-        
+      <TextHoverEffect text="Experiences" />
+      My journey in a nutshell.
+      
       </div>
+<div className="">
+      <div ref={ref} className="relative max-w-7xl mx-auto pb-20 mt-[-80px]">
 
-      <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
         {data.map((item, index) => (
           <div
             key={index}
             className="flex justify-start pt-10 md:pt-40 md:gap-10"
           >
-            <div className="sticky flex flex-col md:flex-row z-40 top-40 self-start max-w-xs lg:max-w-sm md:w-full">
+            <div className="sticky flex flex-col md:flex-row z-20 top-40 self-start max-w-xs lg:max-w-sm md:w-full">
               <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center">
                 <div className="h-4 w-4 rounded-full bg-neutral-200 dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
               </div>
               <div>
-                <h4 className="hidden md:block text-l md:pl-20 md:text-2xl font-bold text-neutral-200 dark:text-neutral-00">
+                <h4 className="hidden md:block text-l md:pl-20 text-[1.350rem] font-bold text-neutral-200 dark:text-neutral-00">
                   {item.position}
                 </h4>
                 <div className="md:pl-20">
@@ -71,10 +71,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                     className="rounded-lg object-cover w-full h-auto shadow-md"
                   />
                 </div>
-                <h4 className="hidden md:block text-l md:pl-20 md:text-xl text-neutral-500 dark:text-neutral-500 ">
+                <h4 className="hidden md:block text-l md:pl-20 md:text-xl text-neutral-500 dark:text-neutral-400 ">
                   {item.duration}
                 </h4>
-                <p className="hidden md:block text-l md:pl-20 md:text-s text-neutral-500 dark:text-neutral-200 ">
+                <p className="hidden md:block text-l md:pl-20 text-[0.9rem] text-neutral-500 dark:text-neutral-400 ">
                   {item.desc}
                 </p>
               </div>
@@ -103,6 +103,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           />
         </div>
       </div>
+    </div>
     </div>
   );
 };
