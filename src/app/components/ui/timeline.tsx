@@ -45,7 +45,6 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     >
       <div className="max-w-7xl">
       <TextHoverEffect text="Experiences" />
-      My journey in a nutshell.
       
       </div>
 <div className="">
@@ -61,7 +60,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                 <div className="h-4 w-4 rounded-full bg-neutral-200 dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
               </div>
               <div>
-                <h4 className="hidden md:block text-l md:pl-20 text-[1.350rem] font-bold text-neutral-200 dark:text-neutral-00">
+                <h4 className="hidden md:block text-md md:pl-20 text-[1.0rem] font-bold text-neutral-200 dark:text-neutral-00">
                   {item.position}
                 </h4>
                 <div className="md:pl-20">
@@ -71,10 +70,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                     className="rounded-lg object-cover w-full h-auto shadow-md"
                   />
                 </div>
-                <h4 className="hidden md:block text-l md:pl-20 md:text-xl text-neutral-500 dark:text-neutral-400 ">
+                <h4 className="hidden md:block text-sm md:pl-20 text-neutral-500 dark:text-neutral-400 ">
                   {item.duration}
                 </h4>
-                <p className="hidden md:block text-l md:pl-20 text-[0.9rem] text-neutral-500 dark:text-neutral-400 ">
+                <p className="hidden md:block text-[0.85rem] md:pl-20 text-[0.9rem] text-neutral-500 dark:text-neutral-400 ">
                   {item.desc}
                 </p>
               </div>

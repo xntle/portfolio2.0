@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <div className="bg-black min-h-screen">
       <Navbar />
-      <div className="w-full max-w-3xl mx-auto p-4">
+      <div className="w-full max-w-[650px] mx-auto p-4">
         <TextHoverEffect text="Thai An Le" />
-        <h1 className="text-md font-dark text-neutral-400 dark:text-neutral-600 mb-8">
+        <h1 className="text-md font-dark text-gray-400 dark:text-gray-400 mb-8">
           Yo! Welcome to my portfolio. I'm currently a senior studying computer science at UC Davis. I am passionate about product and software engineering.
         </h1>
         <div className="flex  collumn gap-5">

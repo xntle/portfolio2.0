@@ -37,7 +37,7 @@ const Projects = () => {
       <div className="bg-black">
 
 
-      <div className="w-full max-w-3xl mx-auto p-4 text-white min-h-screen">
+      <div className="w-full max-w-2xl mx-auto p-4 text-white min-h-screen">
         <TextHoverEffect text="Projects" />
         <AnimatePresence>
           {active && typeof active === "object" && (
@@ -90,7 +90,7 @@ const Projects = () => {
                       </motion.h3>
                       <motion.p
                         layoutId={`description-${active.description}-${id}`}
-                        className="text-neutral-400 text-base"
+                        className="text-white text-base"
                       >
                         {active.description}
                       </motion.p>
@@ -114,7 +114,7 @@ const Projects = () => {
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
                       exit={{ opacity: 0 }}
-                      className="text-neutral-400 text-xs md:text-sm lg:text-base h-40 md:h-fit pb-10 flex flex-col items-start gap-1 overflow-auto dark:text-neutral-400 [mask:linear-gradient(to_bottom,white,white,transparent)] [scrollbar-width:none] [-ms-overflow-style:none] [-webkit-overflow-scrolling:touch]"
+                      className="text-neutral-800 text-xs md:text-sm lg:text-base h-40 md:h-fit pb-10 flex flex-col items-start gap-1 overflow-auto dark:text-neutral-400 [mask:linear-gradient(to_bottom,white,white,transparent)] [scrollbar-width:none] [-ms-overflow-style:none] [-webkit-overflow-scrolling:touch]"
                     >
                       {typeof active.content === "function"
                         ? active.content()
@@ -203,18 +203,21 @@ const cards = [
     ctaLink: "https://nodi-ashy.vercel.app/",
     content: () => {
       return (
-        <p>
-          Lana Del Rey, an iconic American singer-songwriter, is celebrated for
-          her melancholic and cinematic music style. Born Elizabeth Woolridge
-          Grant in New York City, she has captivated audiences worldwide with
-          her haunting voice and introspective lyrics. <br /> <br /> Her songs
-          often explore themes of tragic romance, glamour, and melancholia,
-          drawing inspiration from both contemporary and vintage pop culture.
-          With a career that has seen numerous critically acclaimed albums, Lana
-          Del Rey has established herself as a unique and influential figure in
-          the music industry, earning a dedicated fan base and numerous
-          accolades.
+        <div>
+          <p>
+          Built with: Next.js, Tailwind CSS, and Gemini API.
+          </p>
+          <p>
+            Nodi is a collaborative note-taking app that allows users to create
+            and share notes with others in real-time. With AI-powered features
+            like automatic summarization and sentiment analysis, Nodi makes it
+            easy to capture and organize information efficiently.
         </p>
+        <p>
+          Won a $1000 grant on Flag Up, a start up competition hosted by International University, Vietnam.
+        </p>
+        </div>
+
       );
     },
   },

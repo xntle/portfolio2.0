@@ -1,48 +1,67 @@
 import Link from "next/link";
 import React from "react";
 import { LinkPreview } from "./link-preview";
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
+import {
+  Icon360,
+  IconBrandGithub,
+  IconBrandLinkedin,
+  IconMail,
+} from "@tabler/icons-react";
 
 const Navbar = () => {
   return (
     <nav className="bg-black text-white py-4">
-      <div className="max-w-3xl mx-auto px-4 mt-7"> 
-        <ul className="flex space-x-16 text-sm md:text-base">
+      <div className="max-w-2xl mx-auto px-4 mt-7 mb-4 flex justify-between items-center">
+        <ul className="flex space-x-8 text-xs md:text-base">
           <li>
-            <Link href="/" className="hover:text-blue-500">
+            <Link href="/" className=" font-100 hover:text-blue-500">
               home
             </Link>
           </li>
           <li>
-            <Link href="/Projects" className="hover:text-blue-500">
+            <Link href="/Projects" className=" font-300 hover:text-blue-500">
               projects
             </Link>
           </li>
           <li>
-            <Link href="/Experiences" className="hover:text-blue-500">
+            <Link href="/Experiences" className=" font-300 hover:text-blue-500">
               experiences
             </Link>
           </li>
+        </ul>
+
+        <ul className="flex space-x-8 text-xs md:text-base">
           <li>
-          <LinkPreview
-          url="https://linkedin.com/in/thai-an-le"
-          className="font-medium font-medium text-white hover:text-blue-500"
-          >
-            linkedin
-          </LinkPreview>
+            <LinkPreview
+              url="https://linkedin.com/in/thai-an-le"
+              className="font-small text-white hover:text-blue-500 flex collumn"
+            >
+                            <a
+                href="https://linkedin.com/in/thai-an-le"
+                target="_blank"
+                rel="noopener noreferrer" 
+                style={{ fontSize: 0 }}
+              >
+              <IconBrandLinkedin></IconBrandLinkedin>
+              </a>
+            </LinkPreview>
           </li>
           <li>
-          <LinkPreview
-          url="https://github.com/xntle"
-          className="font-medium font-medium text-white hover:text-blue-500"
-          >
-            github
-          </LinkPreview>
+            <LinkPreview
+              url="https://github.com/xntle"
+              className=" font-small text-white hover:text-blue-500"
+            >
+              <a
+                href="https://github.com/xntle"
+                target="_blank" 
+                rel="noopener noreferrer" 
+                style={{ fontSize: 0 }}
+              >
+                <IconBrandGithub></IconBrandGithub>
+              </a>
+            </LinkPreview>
           </li>
-          {/* <li>
-            <Link href="/Contact" className="hover:text-blue-500">
-              contact
-            </Link>
-          </li> */}
         </ul>
       </div>
     </nav>
