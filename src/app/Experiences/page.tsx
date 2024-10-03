@@ -275,7 +275,7 @@ const Experiences = () => {
             >
               linhlinhdan.com
             </a>
-            , the company's flagship{" "}
+            , the company&apos;s flagship{" "}
             <span className="font-bold text-white">e-commerce platform</span>.
           </p>
           <p className="mt-3">
@@ -371,7 +371,7 @@ const Experiences = () => {
           </p>
 
           <p className="mt-3">
-            • Achieved significant improvement in students' understanding and
+            • Achieved significant improvement in students&apos; understanding and
             performance in{" "}
             <span className="font-bold text-white">AP Computer Science</span>{" "}
             courses.

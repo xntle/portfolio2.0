@@ -13,7 +13,7 @@ export default function Home() {
       <div className="w-full max-w-[650px] mx-auto p-4">
         <TextHoverEffect text="Thai An Le" />
         <h1 className="text-md font-dark text-gray-400 dark:text-gray-400 mb-8">
-          Yo! Welcome to my portfolio. I'm currently a senior studying computer science at UC Davis. I am passionate about product and software engineering.
+          Yo! Welcome to my portfolio. I&apos;m currently a senior studying computer science at UC Davis. I am passionate about product and software engineering.
         </h1>
         <div className="flex  collumn gap-5">
         <a
