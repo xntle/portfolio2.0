@@ -169,7 +169,7 @@ const Projects = () => {
   );
 }
 
-export const CloseIcon = () => {
+const CloseIcon = () => {
   return (
     <motion.svg
       initial={{ opacity: 0 }}
