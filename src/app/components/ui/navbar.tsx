@@ -2,17 +2,19 @@ import Link from "next/link";
 import React from "react";
 import { LinkPreview } from "./link-preview";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
-import {
-  Icon360,
-  IconBrandGithub,
-  IconBrandLinkedin,
-  IconMail,
-} from "@tabler/icons-react";
+// import {
+//   Icon360,
+//   IconBrandGithub,
+//   IconBrandLinkedin,
+//   IconMail,
+// } from "@tabler/icons-react";
+import { Icons } from "../icons";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
     <nav className="bg-black text-white py-4">
-      <div className="max-w-2xl mx-auto px-4 mt-7 mb-4 flex justify-between items-center">
+      <div className="max-w-[650px] mx-auto px-4 mt-7 mb-4 flex justify-between items-center">
         <ul className="flex space-x-8 text-xs md:text-base">
           <li>
             <Link href="/" className=" font-100 hover:text-blue-500">
@@ -37,14 +39,14 @@ const Navbar = () => {
               url="https://linkedin.com/in/thai-an-le"
               className="font-small text-white hover:text-blue-500 flex collumn"
             >
-                            <a
+              {/* <a
                 href="https://linkedin.com/in/thai-an-le"
                 target="_blank"
-                rel="noopener noreferrer" 
+                rel="noopener noreferrer"
                 style={{ fontSize: 0 }}
-              >
-              <IconBrandLinkedin></IconBrandLinkedin>
-              </a>
+              > */}
+                <Icons.linkedin className="w-6 h-6" />
+              {/* </a> */}
             </LinkPreview>
           </li>
           <li>
@@ -52,14 +54,14 @@ const Navbar = () => {
               url="https://github.com/xntle"
               className=" font-small text-white hover:text-blue-500"
             >
-              <a
+              {/* <a
                 href="https://github.com/xntle"
-                target="_blank" 
-                rel="noopener noreferrer" 
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{ fontSize: 0 }}
-              >
-                <IconBrandGithub></IconBrandGithub>
-              </a>
+              > */}
+                <Icons.github className="w-6 h-6" />
+              {/* </a> */}
             </LinkPreview>
           </li>
         </ul>
