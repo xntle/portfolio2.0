@@ -37,7 +37,7 @@ const Projects = () => {
       <div className="bg-black">
 
 
-      <div className="w-full max-w-2xl mx-auto p-4 text-white min-h-screen">
+      <div className="w-full max-w-[675px] mx-auto p-4 text-white min-h-screen">
         <TextHoverEffect text="Projects" />
         <AnimatePresence>
           {active && typeof active === "object" && (
