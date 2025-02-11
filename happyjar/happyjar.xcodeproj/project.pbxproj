@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FDEC3BD2CB5EAE300262D95 /* happyjarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEC3BC2CB5EAE300262D95 /* happyjarApp.swift */; };
+		8FDEC3BF2CB5EAE300262D95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEC3BE2CB5EAE300262D95 /* ContentView.swift */; };
+		8FDEC3C12CB5EAE300262D95 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEC3C02CB5EAE300262D95 /* Item.swift */; };
+		8FDEC3C32CB5EAE400262D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FDEC3C22CB5EAE400262D95 /* Assets.xcassets */; };
+		8FDEC3C72CB5EAE400262D95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FDEC3C62CB5EAE400262D95 /* Preview Assets.xcassets */; };
+		8FDEC3D12CB5EAE400262D95 /* happyjarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEC3D02CB5EAE400262D95 /* happyjarTests.swift */; };
+		8FDEC3DB2CB5EAE400262D95 /* happyjarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEC3DA2CB5EAE400262D95 /* happyjarUITests.swift */; };
+		8FDEC3DD2CB5EAE400262D95 /* happyjarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEC3DC2CB5EAE400262D95 /* happyjarUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FDEC3CD2CB5EAE400262D95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FDEC3B12CB5EAE300262D95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FDEC3B82CB5EAE300262D95;
+			remoteInfo = happyjar;
+		};
+		8FDEC3D72CB5EAE400262D95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FDEC3B12CB5EAE300262D95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FDEC3B82CB5EAE300262D95;
+			remoteInfo = happyjar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FDEC3B92CB5EAE300262D95 /* happyjar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = happyjar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FDEC3BC2CB5EAE300262D95 /* happyjarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happyjarApp.swift; sourceTree = "<group>"; };
+		8FDEC3BE2CB5EAE300262D95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8FDEC3C02CB5EAE300262D95 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		8FDEC3C22CB5EAE400262D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FDEC3C42CB5EAE400262D95 /* happyjar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = happyjar.entitlements; sourceTree = "<group>"; };
+		8FDEC3C62CB5EAE400262D95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8FDEC3CC2CB5EAE400262D95 /* happyjarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = happyjarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FDEC3D02CB5EAE400262D95 /* happyjarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happyjarTests.swift; sourceTree = "<group>"; };
+		8FDEC3D62CB5EAE400262D95 /* happyjarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = happyjarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FDEC3DA2CB5EAE400262D95 /* happyjarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happyjarUITests.swift; sourceTree = "<group>"; };
+		8FDEC3DC2CB5EAE400262D95 /* happyjarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happyjarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FDEC3B62CB5EAE300262D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDEC3C92CB5EAE400262D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDEC3D32CB5EAE400262D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FDEC3B02CB5EAE300262D95 = {
+			isa = PBXGroup;
+			children = (
+				8FDEC3BB2CB5EAE300262D95 /* happyjar */,
+				8FDEC3CF2CB5EAE400262D95 /* happyjarTests */,
+				8FDEC3D92CB5EAE400262D95 /* happyjarUITests */,
+				8FDEC3BA2CB5EAE300262D95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FDEC3BA2CB5EAE300262D95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FDEC3B92CB5EAE300262D95 /* happyjar.app */,
+				8FDEC3CC2CB5EAE400262D95 /* happyjarTests.xctest */,
+				8FDEC3D62CB5EAE400262D95 /* happyjarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FDEC3BB2CB5EAE300262D95 /* happyjar */ = {
+			isa = PBXGroup;
+			children = (
+				8FDEC3BC2CB5EAE300262D95 /* happyjarApp.swift */,
+				8FDEC3BE2CB5EAE300262D95 /* ContentView.swift */,
+				8FDEC3C02CB5EAE300262D95 /* Item.swift */,
+				8FDEC3C22CB5EAE400262D95 /* Assets.xcassets */,
+				8FDEC3C42CB5EAE400262D95 /* happyjar.entitlements */,
+				8FDEC3C52CB5EAE400262D95 /* Preview Content */,
+			);
+			path = happyjar;
+			sourceTree = "<group>";
+		};
+		8FDEC3C52CB5EAE400262D95 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8FDEC3C62CB5EAE400262D95 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8FDEC3CF2CB5EAE400262D95 /* happyjarTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FDEC3D02CB5EAE400262D95 /* happyjarTests.swift */,
+			);
+			path = happyjarTests;
+			sourceTree = "<group>";
+		};
+		8FDEC3D92CB5EAE400262D95 /* happyjarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FDEC3DA2CB5EAE400262D95 /* happyjarUITests.swift */,
+				8FDEC3DC2CB5EAE400262D95 /* happyjarUITestsLaunchTests.swift */,
+			);
+			path = happyjarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FDEC3B82CB5EAE300262D95 /* happyjar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FDEC3E02CB5EAE400262D95 /* Build configuration list for PBXNativeTarget "happyjar" */;
+			buildPhases = (
+				8FDEC3B52CB5EAE300262D95 /* Sources */,
+				8FDEC3B62CB5EAE300262D95 /* Frameworks */,
+				8FDEC3B72CB5EAE300262D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = happyjar;
+			productName = happyjar;
+			productReference = 8FDEC3B92CB5EAE300262D95 /* happyjar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FDEC3CB2CB5EAE400262D95 /* happyjarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FDEC3E32CB5EAE400262D95 /* Build configuration list for PBXNativeTarget "happyjarTests" */;
+			buildPhases = (
+				8FDEC3C82CB5EAE400262D95 /* Sources */,
+				8FDEC3C92CB5EAE400262D95 /* Frameworks */,
+				8FDEC3CA2CB5EAE400262D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FDEC3CE2CB5EAE400262D95 /* PBXTargetDependency */,
+			);
+			name = happyjarTests;
+			productName = happyjarTests;
+			productReference = 8FDEC3CC2CB5EAE400262D95 /* happyjarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FDEC3D52CB5EAE400262D95 /* happyjarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FDEC3E62CB5EAE400262D95 /* Build configuration list for PBXNativeTarget "happyjarUITests" */;
+			buildPhases = (
+				8FDEC3D22CB5EAE400262D95 /* Sources */,
+				8FDEC3D32CB5EAE400262D95 /* Frameworks */,
+				8FDEC3D42CB5EAE400262D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FDEC3D82CB5EAE400262D95 /* PBXTargetDependency */,
+			);
+			name = happyjarUITests;
+			productName = happyjarUITests;
+			productReference = 8FDEC3D62CB5EAE400262D95 /* happyjarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FDEC3B12CB5EAE300262D95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					8FDEC3B82CB5EAE300262D95 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					8FDEC3CB2CB5EAE400262D95 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 8FDEC3B82CB5EAE300262D95;
+					};
+					8FDEC3D52CB5EAE400262D95 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 8FDEC3B82CB5EAE300262D95;
+					};
+				};
+			};
+			buildConfigurationList = 8FDEC3B42CB5EAE300262D95 /* Build configuration list for PBXProject "happyjar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FDEC3B02CB5EAE300262D95;
+			productRefGroup = 8FDEC3BA2CB5EAE300262D95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FDEC3B82CB5EAE300262D95 /* happyjar */,
+				8FDEC3CB2CB5EAE400262D95 /* happyjarTests */,
+				8FDEC3D52CB5EAE400262D95 /* happyjarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FDEC3B72CB5EAE300262D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDEC3C72CB5EAE400262D95 /* Preview Assets.xcassets in Resources */,
+				8FDEC3C32CB5EAE400262D95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDEC3CA2CB5EAE400262D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDEC3D42CB5EAE400262D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FDEC3B52CB5EAE300262D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDEC3BF2CB5EAE300262D95 /* ContentView.swift in Sources */,
+				8FDEC3C12CB5EAE300262D95 /* Item.swift in Sources */,
+				8FDEC3BD2CB5EAE300262D95 /* happyjarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDEC3C82CB5EAE400262D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDEC3D12CB5EAE400262D95 /* happyjarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDEC3D22CB5EAE400262D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDEC3DD2CB5EAE400262D95 /* happyjarUITestsLaunchTests.swift in Sources */,
+				8FDEC3DB2CB5EAE400262D95 /* happyjarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FDEC3CE2CB5EAE400262D95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FDEC3B82CB5EAE300262D95 /* happyjar */;
+			targetProxy = 8FDEC3CD2CB5EAE400262D95 /* PBXContainerItemProxy */;
+		};
+		8FDEC3D82CB5EAE400262D95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FDEC3B82CB5EAE300262D95 /* happyjar */;
+			targetProxy = 8FDEC3D72CB5EAE400262D95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8FDEC3DE2CB5EAE400262D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FDEC3DF2CB5EAE400262D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8FDEC3E12CB5EAE400262D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = happyjar/happyjar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"happyjar/Preview Content\"";
+				DEVELOPMENT_TEAM = 9DZBF3F2XA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = happyjar.happyjar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FDEC3E22CB5EAE400262D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = happyjar/happyjar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"happyjar/Preview Content\"";
+				DEVELOPMENT_TEAM = 9DZBF3F2XA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = happyjar.happyjar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FDEC3E42CB5EAE400262D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DZBF3F2XA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = happyjar.happyjarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/happyjar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/happyjar";
+			};
+			name = Debug;
+		};
+		8FDEC3E52CB5EAE400262D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DZBF3F2XA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = happyjar.happyjarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/happyjar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/happyjar";
+			};
+			name = Release;
+		};
+		8FDEC3E72CB5EAE400262D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DZBF3F2XA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = happyjar.happyjarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = happyjar;
+			};
+			name = Debug;
+		};
+		8FDEC3E82CB5EAE400262D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DZBF3F2XA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = happyjar.happyjarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = happyjar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FDEC3B42CB5EAE300262D95 /* Build configuration list for PBXProject "happyjar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FDEC3DE2CB5EAE400262D95 /* Debug */,
+				8FDEC3DF2CB5EAE400262D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FDEC3E02CB5EAE400262D95 /* Build configuration list for PBXNativeTarget "happyjar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FDEC3E12CB5EAE400262D95 /* Debug */,
+				8FDEC3E22CB5EAE400262D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FDEC3E32CB5EAE400262D95 /* Build configuration list for PBXNativeTarget "happyjarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FDEC3E42CB5EAE400262D95 /* Debug */,
+				8FDEC3E52CB5EAE400262D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FDEC3E62CB5EAE400262D95 /* Build configuration list for PBXNativeTarget "happyjarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FDEC3E72CB5EAE400262D95 /* Debug */,
+				8FDEC3E82CB5EAE400262D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FDEC3B12CB5EAE300262D95 /* Project object */;
+}
